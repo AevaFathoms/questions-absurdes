@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+
+{
+
+    int reponse = 0;
+
+do
+{
+
+
+
+        printf("QUESTION No1 :\n\n\n");
+        printf("Quelle est la longueur moyenne d'un penis d'elephant ?\n\n");
+        printf("Reponse 1: Surement plus grande que la tienne...\n");
+        printf("Reponse 2: 195 cm\n");
+        printf("Reponse 3: 76 cm\n");
+        printf("Reponse 4 : 120cm\n");
+        printf("Tapez le numero de votre reponse :");
+        scanf("%d", &reponse);
+
+        if(reponse == 2)
+
+            printf("\nOui, c'est exact !\n\n\n");
+
+        else
+            printf("\nPerdu !\n\n\n");
+
+
+} while (reponse!=2);
+
+
+printf("QUESTION  No2 : \n\n\n");
+printf("Est-ce vrai que les japonais tuent des dauphins et des baleines car les etats-unis leur font croire\nque c'est justement les dauphins et les baleines qui ont bombarde Hiroshima et Nagasaki ? : \n\n\n");
+printf("Reponse 1 : Vrai\nReponse 2 : Faux\nReponse 3 : Hein ??\n");
+printf("Tapez le numero de votre reponse :");
+scanf("%d", &reponse);
+
+if(reponse == 3)
+
+            printf("\nOuais, moi aussi j'ai rien compris... !\n\n\n");
+
+        else
+            printf("\nPerdu !\n\n\n");
+
+
+system("PAUSE");
+return 0;
+}
